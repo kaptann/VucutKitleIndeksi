@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/et_Boy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Boyunuz"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_Kilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kilonuz"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_Hesapla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hesapla" />
+
+        <Button
+            android:id="@+id/btn_Temizle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temizle" />
+
+        <TextView
+            android:id="@+id/tv_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vücut Kitle Indeksiniz : "
+            tools:layout_marginTop="20dp"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_sonuc"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-24dp"
+            android:textSize="18sp"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_Text2"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Durumunuz : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_durum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-25dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
