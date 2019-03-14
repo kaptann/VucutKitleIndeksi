@@ -1,2 +1,2 @@
 # VucutKitleIndeksi
-Android Studio ile kodlanmistir.
+Vücut kitle indeksini hesaplayan android uygulama.
